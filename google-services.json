@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647548425988",
+    "firebase_url": "https://poesiaroseroesteban.firebaseio.com",
+    "project_id": "poesiaroseroesteban",
+    "storage_bucket": "poesiaroseroesteban.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647548425988:android:1373e19d09638d47f9a251",
+        "android_client_info": {
+          "package_name": "ec.ups.edu.poesiaroseroesteban"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647548425988-qh7g86g74uisajc3e6jfau3okch8tjcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVbX2_0Bzg1rkubN4UdM8UJoFJLtSrOkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647548425988-qh7g86g74uisajc3e6jfau3okch8tjcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

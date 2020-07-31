@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>comentarios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngFor="let comentario of comentario">
+        <ion-label>{{comentario}}</ion-label>
+        <ion-input type="text" [(ngModel)]="comentario"></ion-input>
+        
+  </ion-list>
+
+</ion-content>

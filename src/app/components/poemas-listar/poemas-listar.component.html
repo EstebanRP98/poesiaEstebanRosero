@@ -1,0 +1,12 @@
+<ion-list>
+  <ion-item *ngFor="let poema of poema">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>{{poema.autor}}</ion-card-subtitle>
+        <ion-card-title>{{poema.nombre}}</ion-card-title>
+      </ion-card-header>
+      <ion-label>{{poema.poesia}}</ion-label>
+    </ion-card>
+  </ion-item>
+</ion-list>
+

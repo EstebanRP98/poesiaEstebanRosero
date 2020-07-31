@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>crearpoesia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full" class="ion-no-margin ion-no-padding">
+    <ion-item>
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input type="text" [(ngModel)]="poesia.nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Poesia</ion-label>
+      <ion-input type="text" [(ngModel)]="poesia.poesia"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Autor</ion-label>
+      <ion-input type="text" [(ngModel)]="poesia.autor"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Imagen poesia</ion-label>
+      <img [src]="poesia.imagen" />
+      <app-image-upload (uploadFinished)="actualizarFotoIcono($event)"></app-image-upload>
+    </ion-item>
+  </ion-list>
+  <div class="ion-padding">
+    <ion-button fill="outline" slot="end" (click)="crearPoesia()">Guardar</ion-button>
+    <ion-button fill="outline" slot="end" color="danger" (click)="cancelar()">Cancelar</ion-button>
+  </div>
+
+</ion-content>

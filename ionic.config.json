@@ -1,5 +1,7 @@
 {
   "name": "poesiaRoseroEsteban",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
